@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_med"
+            android:icon="@drawable/ic_menu_med"
+            android:title="Medication" />
+        <item
+            android:id="@+id/nav_sett"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="@string/newsTitle">
+        <menu>
+            <item
+                android:id="@+id/teleg"
+                android:icon="@drawable/ic_menu_news"
+                android:title="Telegraph" />
+            <item
+                android:id="@+id/vent"
+                android:icon="@drawable/ic_menu_news"
+                android:title="Venturebeat" />
+        </menu>
+    </item>
+
+</menu>

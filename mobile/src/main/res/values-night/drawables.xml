@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ic_menu_med" type="drawable">@drawable/ic_action_meds_light</item>
+    <item name="ic_menu_home" type="drawable">@drawable/ic_action_home_white</item>
+    <item name="ic_menu_settings" type="drawable">@drawable/ic_action_settings_white</item>
+    <item name="ic_menu_news" type="drawable">@drawable/ic_action_news_white</item>
+</resources>

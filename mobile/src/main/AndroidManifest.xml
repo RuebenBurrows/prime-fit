@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ruebenburrowsdavies.info.primefittracking">
+
+    <!-- Required to act as a custom watch face. -->
+    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ruebenburrowsdavies.info.primefittracking.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".news_one"
+            android:label="@string/title_activity_medication"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Medication"
+            android:label="@string/title_activity_meds2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="ruebenburrowsdavies.info.primefittracking.AlarmReceiver" />
+        <receiver android:name="ruebenburrowsdavies.info.primefittracking.BootCompleteIntentReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="ruebenburrowsdavies.info.primefittracking.BackgroundService" />
+
+        <activity
+            android:name="ruebenburrowsdavies.info.primefittracking.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="ruebenburrowsdavies.info.primefittracking.start_fullscreen_partone"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_start_fullscreen_partone"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="ruebenburrowsdavies.info.primefittracking.start_fullscreen_parttwo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_start_fullscreen_parttwo"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Settings_new"
+            android:label="@string/title_activity_ettings_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="ruebenburrowsdavies.info.primefittracking.news_two"
+            android:label="@string/title_activity_news_two"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+    </application>
+
+</manifest>

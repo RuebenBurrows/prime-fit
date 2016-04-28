@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Prime Fit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_medication">Telegraph News</string>
+    <string name="title_activity_notifications">Other</string>
+    <string name="title_activity_meds2">Medications</string>
+    <string name="permission_rationale">Step data is used as part of the Google Fit API</string>
+    <string name="ok">OK</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Continue</string>
+    <string name="dummy_content">Enjoy.\nRelax.\nWork Out.</string>
+    <string name="dummy_content2">Welcome\nConnecting to Google Fit</string>
+    <string name="title_activity_start_fullscreen_partone">start_fullscreen_partone</string>
+    <string name="dummy_content3">Enter your daily \nstep goal</string>
+    <string name="newsTitle">Health News</string>
+    <string name="title_activity_start_fullscreen_parttwo">start_fullscreen_parttwo</string>
+    <string name="title_activity_ettings_new">Settings</string>
+    <string name="title_activity_news_two">Venturebeat News</string>
+
+
+</resources>
